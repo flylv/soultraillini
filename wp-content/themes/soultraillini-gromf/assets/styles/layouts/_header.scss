@@ -1,0 +1,42 @@
+.topheader{
+	background: url(../images/top_wrap_flow.png);
+    height: 45px;
+}
+.contain-to-grid{
+	background: none;
+}
+
+header{
+	.logo{
+		text-align: center;
+		a{
+			color: #222;
+			text-transform: capitalize;
+		}
+	}
+	.top-bar{
+		background: none;
+		.top-bar-section{
+			ul{
+				display: block;
+				text-align: center;
+				li{
+					background: none;
+					float: none;
+					display: inline-block;
+					a{
+						background: none!important;
+						color: rgba(28,28,28,.7);
+						font-family: 'Parisienne',arial;
+						font-size: 30px;
+						line-height: 35px;
+						&:hover{
+							color: #000;
+						}
+					}
+
+				}
+			}			
+		}
+	}
+}

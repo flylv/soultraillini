@@ -1,0 +1,31 @@
+.lined {
+    display: inline-table;
+    width: auto;
+    font-size: 30px;
+    white-space: nowrap;
+    position: relative;
+    margin: 25px 0;
+    &::after{
+    	content: '';
+	    display: table-cell;
+	    width: 100%;
+	    position: relative;
+	    height: 20px;
+	    background: url(../images/seprator.png) 18px no-repeat;
+	    top: 6px!important;
+    }
+}
+
+.wedding-persion{
+	.name{
+		font-size: 30px;
+		line-height: 35px;
+		margin: 15px auto;
+	}
+}
+
+.parents{
+	.wedding-persion{
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,15 @@
+footer{
+	.footerimg{
+		background: url(../images/top_wrap_flow.png);
+    	height: 45px;
+    	-ms-transform: rotate(180deg); /* IE 9 */
+    	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    	transform: rotate(180deg);
+    	margin-top: 7px;
+
+	}
+	.siteinfo{
+		font-size: 16px;
+		text-align: center;
+	}
+}
