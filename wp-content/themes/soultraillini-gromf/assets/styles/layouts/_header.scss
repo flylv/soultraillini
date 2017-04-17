@@ -16,10 +16,12 @@ header{
 	}
 	.top-bar{
 		background: none;
+		height:auto;
 		.top-bar-section{
 			ul{
 				display: block;
 				text-align: center;
+				padding:10px 0;
 				li{
 					background: none;
 					float: none;
@@ -34,9 +36,18 @@ header{
 							color: #000;
 						}
 					}
+					&.current-menu-item{
+						a{
+							color:#000;
+						}
+						
+					}
 
 				}
 			}			
 		}
 	}
+}
+.aligncenter{
+	margin:auto;
 }

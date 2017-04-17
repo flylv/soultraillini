@@ -1,8 +1,12 @@
 <div class="topheader"></div>
 <div class="contain-to-grid">
   <header>
-    <div class="logo"><h1><a href="<?php echo esc_url(home_url()); ?>"><?php bloginfo('name'); ?></a></h1></div>
-    <nav class="top-bar" data-topbar role="navigation">
+    <div class="logo"><h1><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo bloginfo('template_directory')?>/dist/images/logo.png" width="200"></a></h1>
+    <div>Theodora & Giulio<br/>
+    Sunday 1st of October 2017<br/>
+    Crete </div>
+    </div>
+    <nav class="top-bar clearfix" data-topbar role="navigation">
       <ul class="title-area">
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
       </ul>
