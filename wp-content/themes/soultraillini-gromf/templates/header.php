@@ -1,7 +1,7 @@
 <div class="topheader"></div>
 <div class="contain-to-grid">
   <header>
-    <div class="logo"><h1><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo bloginfo('template_directory')?>/dist/images/logo.png" width="200"></a></h1>
+    <div class="logo"><h1><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo bloginfo('template_directory')?>/dist/images/logo.png" width="250"></a></h1>
     <div>Theodora & Giulio<br/>
     Sunday 1st of October 2017<br/>
     Crete </div>
