@@ -7,3 +7,12 @@ body{
 		font-family: 'Calibri','Parisienne',arial;
 	}
 }
+table{
+	border:none;
+	tr{
+		background:none!important;
+		td{
+			vertical-align:top;
+		}
+	}
+}
