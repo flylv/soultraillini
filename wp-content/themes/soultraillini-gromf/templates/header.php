@@ -1,4 +1,3 @@
-<div class="topheader"></div>
 <div class="contain-to-grid">
   <header>
     <div class="logo"><h1><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo bloginfo('template_directory')?>/dist/images/logo.png" width="250"></a></h1>

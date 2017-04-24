@@ -1,5 +1,5 @@
 body{
-	//background: url(../images/bg_pattern.png) #fff;
+	background-color:#f5f4ed!important;
 	font-family:'Calibri', 'Parisienne',arial;
 	font-size: 18px;
 	line-height: 20px;
@@ -9,6 +9,7 @@ body{
 }
 table{
 	border:none;
+	background:none;
 	tr{
 		background:none!important;
 		td{
