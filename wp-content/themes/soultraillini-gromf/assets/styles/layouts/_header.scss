@@ -12,6 +12,7 @@ header{
 		a{
 			color: #222;
 			text-transform: capitalize;
+			font-family: 'Flamenco','Georgia','serif',arial;
 		}
 	}
 	.top-bar{
@@ -29,7 +30,7 @@ header{
 					a{
 						background: none!important;
 						color: rgba(28,28,28,.7);
-						font-family: 'Calibri','Parisienne',arial;
+						font-family: 'Flamenco','Georgia','serif',arial; 
 						font-size: 30px;
 						line-height: 35px;
 						&:hover{
